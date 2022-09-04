@@ -87,7 +87,7 @@ const main = async () => {
   let maximum = 6 // 最大重复次数
   let taskNum = 0 // 任务执行次数
   let status = false // 打卡状态
-  let mailMsg = `<h3>${info['学号']} 同学你好!</h3><hr/>` // 返回的邮件内容
+  let mailMsg = `<h3>今天的打卡情况来咯！</h3><hr/>` // 返回的邮件内容
 
   // 递归打卡
   async function recursionDaka() {
