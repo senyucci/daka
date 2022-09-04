@@ -84,7 +84,7 @@ const main = async () => {
   // return
 
   // 感觉太容易打卡失败了, 这次调整成最大失败 5 次
-  let maximum = 5 // 最大重复次数
+  let maximum = 6 // 最大重复次数
   let taskNum = 0 // 任务执行次数
   let status = false // 打卡状态
   let mailMsg = `<h3>${info['学号']} 同学你好!</h3><hr/>` // 返回的邮件内容
